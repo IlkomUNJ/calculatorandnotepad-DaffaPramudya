@@ -1,0 +1,40 @@
+# ========== Android Studio / IntelliJ ==========
+.idea/
+*.iml
+
+# ========== Gradle ==========
+.gradle/
+**/build/
+build/
+
+# Local configuration (SDK path, etc.)
+local.properties
+
+# ========== Logs & Temp ==========
+*.log
+.DS_Store
+Thumbs.db
+
+# ========== Captures / Screenshots ==========
+captures/
+
+# ========== NDK / Native Build ==========
+.externalNativeBuild/
+.cxx/
+.obj/
+
+# ========== Keystore (Jangan commit ke repo publik) ==========
+*.jks
+*.keystore
+
+# ========== Google Services (Jangan commit API key) ==========
+google-services.json
+
+# ========== Fastlane ==========
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# ========== Output APK / AAB (hasil build) ==========
+*.apk
+*.aab
